@@ -3,7 +3,7 @@ const IMG_NUMBER = 4;
 function paintImage(imgNumber)
 {
     const img = new Image();
-    img.src = `./images/${imgNumber}.jpg`;
+    img.src = `https://source.unsplash.com/random`;
     img.classList.add("bgImage");
     body.prepend(img);
 }
