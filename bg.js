@@ -4,7 +4,7 @@ const IMG_NUMBER = 4;
 function paintImage(imgNumber)
 {
     const img = new Image();
-    img.src = `https://source.unsplash.com/?sky`;
+    img.src = `https://source.unsplash.com/daily`;
     img.classList.add("bgImage");
     body.prepend(img);
 }
