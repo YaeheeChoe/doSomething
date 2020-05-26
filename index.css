@@ -15,18 +15,30 @@ h1{
     justify-content: center; 
     align-items: center;
 }
+
 .js-form,
 .js-greetings{
     display: none;
+    position: absolute;
+    top:200px;
 }
 .js-toDoForm{
-
+    position: absolute;
+    top:330px;
+}
+.js-toDoList{
+    position: absolute;
+    top:  350px;
+    left : 500px;
 }
 .showing{
     display: block;
     color: #F8F8FF;
 }
 .js-weather{
+    position:absolute;
+    left:1000px;
+    top: 580px;
     color: #F8F8FF;
 }
 @keyframes fadeIn{
