@@ -1,4 +1,4 @@
-/* What's Your Name? input*/
+/* What's Your Name? input. 입력완료 후 Greeting 메세지 출력*/
 
 const form = document.querySelector(".js-form"),
     input = form.querySelector("input"),
