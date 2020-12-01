@@ -1,3 +1,5 @@
+/* What's Your Name? input*/
+
 const form = document.querySelector(".js-form"),
     input = form.querySelector("input"),
     greeting = document.querySelector(".js-greetings");
