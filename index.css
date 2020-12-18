@@ -4,12 +4,15 @@ body{
    background-position: center;
    background-repeat: no-repeat;
    min-height: 100vh;
-   display: flex; 
-   justify-content: center; 
-   align-items: center;
+   
 }
 /*clock*/
 h1{
+    display: block;
+   position: absolute;
+   left: 40%;
+   top: 30%;
+   font-size: 5rem;
     color : #F8F8FF;
     transition: color 0.5s ease-in-out;
     justify-content: center; 
@@ -19,26 +22,32 @@ h1{
 .js-form,
 .js-greetings{
     display: none;
-    position: absolute;
     top:200px;
 }
 .js-toDoForm{
-    position: absolute;
-    top:330px;
+    display: flex; 
+   justify-content: center;
+   align-content: center;
+   align-items:center;
 }
 .js-toDoList{
-    position: absolute;
-    top:  350px;
-    left : 500px;
+    margin-top: 30%;
+    margin-left: 30%;
+    height: 30%;
+    display: flex; 
+   justify-content: left;
+   align-self:flex-start;
+   flex-flow: column wrap;
 }
 .showing{
     display: block;
     color: #F8F8FF;
 }
 .js-weather{
-    position:absolute;
-    left:1000px;
-    top: 580px;
+    display: block;
+    position: absolute;
+    left:90%;
+    top: 90%;
     color: #F8F8FF;
 }
 @keyframes fadeIn{
