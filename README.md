@@ -1,4 +1,5 @@
 # doSomething
+
 https://choeyehui.github.io/doSomething/index
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Contact: yaeheee@outlook.com](https://img.shields.io/badge/Contact-yaeheee@outlook.com-important)](mailto:yaeheee@outlook.com)
@@ -20,5 +21,4 @@ Tips! 브라우저 홈으로 지정하기
 
 Simple todo list & clock.
 Be present, Stay healthy.
-
 
